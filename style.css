@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(130, 205, 208);
+    display: grid;
+    place-items: center;
+    border-style: double;
+}
+
+#tmp{
+    border:none;
+    padding: 10px;
+    height: 400px;
+    width: 100px;
+    font-size:20px;
+    margin-top: 20px;
+    
+}
+form{
+    background-color:rgb(141, 233, 227);
+    padding: 80px;
+    width: 40%;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow:0 10px 6pc -6px rgb(0, 0, 0);
+    -webkit-box-shadow: 0 10px 6pc -6px rgb(0, 0, 0);
+    -moz-box-shadow: 0 10px 6pc -6px rgb(6, 0, 5);
+}
+#temp{
+    height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#temdiff{
+    height: 35px;
+    border: black;
+    margin-top: 20px;
+    font-size: 20px;
+    vertical-align: center;
+    align-items: center;
+    font-weight: 700;
+
+}
+
+#temCalc label{
+    font-size: 30px;
+    border: black;    
+}
+
+#resultContainer{
+    font-size: 28px;
+    font-family: 'ubuntu',sans-serif;
+    color:rgb(253, 4, 4);
+    font: bolder;
+    border: solid;
+    border-color: black;
+    font-weight: 700;
+    border-spacing: 2rem;
+}
+[type="submit"]{
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 20px;
+    border: none;
+    background-color: black;
+    color:white;
+    font-weight: 700;
+}
+
+.enter{
+    font-size: x-large;
+}
+
